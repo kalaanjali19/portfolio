@@ -40,3 +40,72 @@
 .read-the-docs {
   color: #888;
 }
+.container {
+background-color: #61dafbaa;
+display: flex;
+max-width:1200px;
+margin: 0 auto;
+          padding: 10px;
+          border: 3px solid #000;
+          box-sizing: border-box
+}
+App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  background-color: #808388;
+}
+.navbar {
+  background-color: #101010; /* Blue color */
+  padding: 16px 32px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+}
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.navbar-links li a:hover {
+  color: #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+}
+.space {
+  margin-top: 30px;
+}
+.hero {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  font-family: “Arial”, sans-serif;
+}
+.left {
+  width: 50%;
+  background-color: #E5E5E5;
+  padding: 150px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.left h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
