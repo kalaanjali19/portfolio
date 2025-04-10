@@ -22,6 +22,7 @@ const Skills = () => {
               <button onClick={toggleTheme} className="theme-toggle">
                 {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
               </button>
+              
             </li>
           </ul>
         </nav>
